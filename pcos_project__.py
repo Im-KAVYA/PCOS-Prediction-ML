@@ -7,9 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1R__fVeLiqGTEzQGMgUJYZ_kURL68u6xr
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
-
 #importing necessary libraries
 import pandas as pd
 import numpy as np
@@ -17,7 +14,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 #reading dataset
-df=pd.read_csv("/content/drive/MyDrive/datasets(1)/PCOS_data_without_infertility.xlsx - Full_new.csv")
+df=pd.read_csv("PCOS_data_without_infertility.csv")
 
 df.info()
 
