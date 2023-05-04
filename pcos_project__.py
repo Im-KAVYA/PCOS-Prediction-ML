@@ -287,14 +287,3 @@ plt.show()
 print("\nAccuracy after smote : ",accuracy_score(y_test,y_pred_svc1))
 print("\nF1 score after smote : ",f1_score(y_test,y_pred_svc1))
 
-#svc2=SVC(kernel="linear")
-#svc2.fit(X_new_train,y_train)
-#y_pred_svc2 = svc2.predict(X_new_test)
-#from sklearn import metrics 
-#cm_svc2=metrics.confusion_matrix(y_test,y_pred_svc2)
-#plt.figure(figsize=(2,2))
-#sns.heatmap(cm_svc2, annot=True, linewidths=1, square = True, cmap = 'Blues_r')
-#plt.show()
-#print("\nAccuracy after smote : ",accuracy_score(y_test,y_pred_svc2))
-#print("\nF1 score after smote : ",f1_score(y_test,y_pred_svc2))
-
